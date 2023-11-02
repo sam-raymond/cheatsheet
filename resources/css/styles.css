@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Acme';
+    src: url('../fonts/Acme/Acme-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    src: url('../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    src: url('../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+
+* {
+    font-family: 'Josefin Sans', Arial, sans-serif;
+}
+
+.top-navigation { 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black; 
+    color: white;
+}
+
+h1 { 
+    margin: 0;
+    padding: 5px 5px 5px 10px;
+}
+
+.sticky-nav {
+    margin: 0;
+}
+
+.main-menu { 
+    position: relative;
+    bottom: 0;
+}
+
+.main-menu li {
+    display: inline;
+    word-wrap: break-word;
+    color: white;
+    float: left;
+    padding: 10px 10px 0px 10px;
+}
+
+table { 
+    border-collapse: collapse;
+}
+
+thead, td { 
+    padding: 0.5em 1em 0.5em 0.5em;
+}
+
+table td { 
+    border: solid;
+}
+
+table thead { 
+    background-color: red;
+}
+
+tbody tr:nth-child(odd) { 
+    background-color: blue;
+}
+
+tbody tr:nth-child(even) { 
+    background-color: lightblue;
+}
+
+
+
+
